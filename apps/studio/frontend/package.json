@@ -1,0 +1,28 @@
+{
+  "name": "@agentic-app-studio/frontend",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Studio frontend shell for Agentic App Studio.",
+  "engines": {
+    "node": ">=25.2.1",
+    "npm": ">=11.6.2"
+  },
+  "scripts": {
+    "check": "node ./scripts/check.mjs",
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.10",
+    "@types/react-dom": "^19.1.7",
+    "@vitejs/plugin-react": "^5.0.2",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.3"
+  }
+}
